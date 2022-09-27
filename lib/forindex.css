@@ -9,10 +9,41 @@
 
 .menuList{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
-
+    height: 30px;
+    background-color: red;
+    font-size: 1.25rem;
 }
 
 .menuList > li{
     list-style: none;
+}
+
+
+#briefDescription{
+    margin-top: 5px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252525;
+}
+#descriptionContainer{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#mainHeading{
+    color: #ffb700;
+    font-size: 20px;
+}
+#potraitImage{
+    display: block;
+    width: 100%;
+}
+#potraitImageContainer{
+    width: 80%;
 }
