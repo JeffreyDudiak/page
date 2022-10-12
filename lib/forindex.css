@@ -133,8 +133,16 @@ a{
     width: 80%;
 }
 
-@media only screen and (max-width: 500px) {
-
+@media only screen and (max-width: 600px) {
+    .briefDescription{
+        margin-top: 5px;
+    }
+    .container{
+        padding: 5px;
+    }
+    .descriptionContainer{
+        margin-top: 10px;
+    }
     .hamburger{
         display: block;
         position: absolute;
@@ -149,13 +157,12 @@ a{
         gap: 5px;
         padding: 3px;
     }
+    .potraitImageAndDescriptionContainer{
+        flex-direction: column;
+        margin-top: 10px;
+    }   
+
     .navMenu{
         display: none;
     }
-}
-
-@media only screen and (max-width:600px) {
-    .potraitImageAndDescriptionContainer{
-        flex-direction: column;
-    }   
 }
