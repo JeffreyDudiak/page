@@ -31,12 +31,12 @@ a{
     flex-direction: column;
     padding: 5px;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 .descriptionContainer{
     width: 90%;
     max-width: 500px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 5px;
     margin-right: 5px;
     color: #ffffff;
@@ -125,7 +125,7 @@ a{
 }
 .potraitImageAndDescriptionContainer{
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
     gap: 10px;
 }
 .potraitImageContainer{
