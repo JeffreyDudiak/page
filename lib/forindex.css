@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #252525;
+
+}
 header{
     background-color: #686868;
 }
@@ -13,40 +17,34 @@ a{
     color: #ffffff;
 }
 
+
+
 /** Class styling **/
 
 .briefDescription{
-    margin-top: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .container{
     display: flex;
     flex-direction: column;
+    padding: 5px;
     align-items: center;
-    background-color: #252525;
+    padding-top: 30px;
 }
 .descriptionContainer{
+    width: 90%;
+    max-width: 500px;
     margin-top: 20px;
     margin-left: 5px;
     margin-right: 5px;
     color: #ffffff;
 }
-.navBar{
-    position: relative;
-}
-.navMenu{
-    display: block;
-}
-.navMenu{
-    display: flex;
-    justify-content: space-evenly;
-    height: 50px;
-    align-items: center;
-}
-.navLink{
-    transition: 0.4s;
-}
-.navLink:hover{
-    color: #00b7ff;
+.descriptionHeading{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
 }
 
 .hamburger{
@@ -79,36 +77,85 @@ a{
 }
 .mainHeading{
     color: #ffb700;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 40px;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
 }
 .mobileNavMenu{
-
-    background-color: #252525;
+    /* hidden in bigger windows size*/
     display:none;
-    
+}
+.mobileNavMenu li{
+    width: 100%;
+    height: 25px;
+    background-color: #433c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBar{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.navMenu{
+    position: absolute;
+    right: 5px;
+    width: 60%;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+.navLink{
+    transition: 0.4s;
+}
+.navLink:hover{
+    color: #00b7ff;
+}
+.navTitle{
+
+    font-size: 18px;
+    font-family:"Times New Roman", Times, serif;
 }
 .potraitImage{
     display: block;
     width: 100%;
 }
+.potraitImageAndDescriptionContainer{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
 .potraitImageContainer{
+    margin:0 auto;
     width: 80%;
-    max-width: 300px;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 500px) {
 
     .hamburger{
         display: block;
-        margin-left:80%;
+        position: absolute;
+        right:5px;
     }
 
-    .mobileNavMenu.isActive{
-        display: block;
+    .mobileNavMenu.isActive{    
+        background-color: #686868;
+        display: flex;
+        flex-direction: column;
+
+        gap: 5px;
+        padding: 3px;
     }
     .navMenu{
         display: none;
     }
+}
+
+@media only screen and (max-width:600px) {
+    .potraitImageAndDescriptionContainer{
+        flex-direction: column;
+    }   
 }
