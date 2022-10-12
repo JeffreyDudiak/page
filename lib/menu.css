@@ -57,7 +57,7 @@ a{
 }
 .mobileNavMenu li{
     width: 100%;
-    height: 25px;
+    height: 35px;
     background-color: #433c3c;
     display: flex;
     justify-content: center;
@@ -105,7 +105,7 @@ a{
         display: flex;
         flex-direction: column;
 
-        gap: 5px;
+        gap: 10px;
         padding: 3px;
     }
 
