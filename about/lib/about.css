@@ -12,13 +12,15 @@
 }
 .mainHeadingSection{
     /* changes the display and layout of the section*/
-    background-color: #adb5b1;
+    background-color: #fffaf7;
     height:70px;
     /* fix the layout of the text */
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 10px;
+    /**makes the text match the container */
+    padding-left: 15%;
 }
 
 .potraitImage{
