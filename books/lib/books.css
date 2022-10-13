@@ -12,6 +12,7 @@
 }
 
 .bookContainer{
+    margin-top: 20px;
     background-color: #dbdbdb;
     color: #000000;
     display: flex;
@@ -60,5 +61,7 @@
 .container{
     width: 90%;
     margin: auto;
-    margin-top: 15px;
+
 }
+
+/** switch to wider screen */
