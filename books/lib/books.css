@@ -23,7 +23,20 @@
 
 }
 .bookDescription{
-    padding: 0 10px 0 10px;
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    /* font styling*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
 }
 .bookHeading{
     height: 20px;
@@ -36,7 +49,7 @@
     letter-spacing: 2px;
     word-spacing: 2px;
     color: #000000;
-    font-weight: normal;
+    font-weight: 600;
     text-decoration: none;
     font-style: normal;
     font-variant: normal;
@@ -48,8 +61,13 @@
 }
 .bookLink{
     text-decoration: none;
-    color: #000000;
-    padding: 0 10px 0 10px;
+    background-color: #006aff;
+    color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
     /**for the animation while hover**/
     transition: 0.4s;
 }
