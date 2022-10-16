@@ -1,7 +1,7 @@
 .mainHeadingSection{
     /* changes the display and layout of the section*/
     background-color: #fffaf7;
-    height:70px;
+    height:80px;
     /* fix the layout of the text */
     display: flex;
     flex-direction: column;
