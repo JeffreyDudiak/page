@@ -1,19 +1,4 @@
-.mainHeadingSection{
-    /* changes the display and layout of the section*/
-    background-color: #fffaf7;
-    height:70px;
-    /* fix the layout of the text */
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    padding: 10px 0 10px 0;
-}
-.mainHeadingSection h1{
-    width: 90%;
-    margin: auto;
-    max-width: 900px;
-    padding: 10px;
-}
+
 .bookBodyContainer{
     display: flex;
     flex-direction: column;
