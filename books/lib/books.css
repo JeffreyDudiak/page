@@ -5,10 +5,14 @@
     /* fix the layout of the text */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
+    padding: 10px 0 10px 0;
+}
+.mainHeadingSection h1{
+    width: 90%;
+    margin: auto;
+    max-width: 900px;
     padding: 10px;
-    /**makes the text match the container */
-    padding-left: 15%;
 }
 .bookBodyContainer{
     display: flex;
