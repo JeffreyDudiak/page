@@ -10,18 +10,7 @@
     text-align: center;
     font-size: 16px;
 }
-.mainHeadingSection{
-    /* changes the display and layout of the section*/
-    background-color: #fffaf7;
-    height:70px;
-    /* fix the layout of the text */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
-    /**makes the text match the container */
-    padding-left: 15%;
-}
+
 
 .potraitImage{
     display: block;
@@ -38,9 +27,7 @@
 }
 
 @media only screen and (min-width: 800px){
-    .mainHeadingSection{
-        height: 80px;
-    }
+
     .container{
         flex-direction: row;
         max-width: 900px;
