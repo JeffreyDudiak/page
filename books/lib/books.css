@@ -51,8 +51,8 @@
 }
 .bookLink{
     text-decoration: none;
-    background-color: #006aff;
-    border: 2px solid transparent;
+    background-color: #343333;
+    border: 3px solid transparent;
     color: #ffffff;
     width: 90%;
     margin: 0 auto;
@@ -65,7 +65,7 @@
 .bookLink:hover{
 
     cursor: pointer;
-    border-color: #00125b;
+    border: 3px solid rgb(135, 135, 135);
 }
 /**the main container **/
 .container{
