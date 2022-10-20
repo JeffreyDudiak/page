@@ -48,14 +48,27 @@
     }
     .potraitImage{
         height: 100%;
-        object-fit: contain;
+        object-fit:cover;
     }
     .potraitImageContainer{
         width: 40%;
-        
+
+    }
+    .connectionDescription{
+        /** resetting the layout when changing from mobile to desktop versions*/
+        margin: 0;
     }
     .connectionDescriptionContainer{
         width: 50%;
+        /** resetting the layout when changing from mobile to desktop versions*/
+        padding: 0;
+        /** this makes the gap between the descriptions easy and gets us the desired layout for the dektop versions*/
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 10px;
+        justify-content: space-around;
     }
+
 }
 
