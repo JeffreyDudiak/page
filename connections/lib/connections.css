@@ -15,6 +15,11 @@
     font-style: italic;
     font-variant: normal;
     text-transform: none;
+    transition: 0.3s;
+}
+.connectionLink:hover{
+    color: #ffb300;
+    text-decoration: underline;
 }
 .connectionTitle{
     font-family: Tahoma, Geneva, sans-serif;
