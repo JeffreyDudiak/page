@@ -1,0 +1,14 @@
+.container{
+    /** standarized container size**/
+    width: 90%;
+    margin: auto;
+    max-width: 900px;
+}
+.eventList{
+    color: #ffffff;
+    margin-top: 40px;
+    /* for gap between the list */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
