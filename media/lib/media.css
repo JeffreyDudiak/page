@@ -9,8 +9,7 @@
 
 .media{
     color: #000000;
-    border: 1px solid white;
-    background-color: #ffffff;
+    background-color: #b5b5b5ce;
     padding: 15px;
 }
 .mediaList{
@@ -25,6 +24,8 @@
     font-style: italic;
 }
 .mediaTitle{
+    box-sizing: border-box;
+    width: 100%;
     /* font-style: italic; */
     font-size: 1.5rem;
 }
