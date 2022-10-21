@@ -1,1 +1,1 @@
-.container{width:90%;margin:auto;max-width:900px}.eventList{color:#fff;margin-top:40px;display:flex;flex-direction:column;gap:10px}
+.container{width:90%;margin:auto;max-width:900px}.event{background-color:#fff;color:#000;padding:20px}.eventList{margin-top:40px;display:flex;flex-direction:column-reverse;gap:25px}.eventTitle{font-size:1.25rem}.eventSubTitle{margin-top:5px;font-size:1.05rem;font-style:italic}

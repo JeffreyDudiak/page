@@ -4,11 +4,24 @@
     margin: auto;
     max-width: 900px;
 }
+.event{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+}
+
 .eventList{
-    color: #ffffff;
     margin-top: 40px;
     /* for gap between the list */
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: column-reverse;
+    gap: 25px;
+}
+.eventTitle{
+    font-size: 1.25rem;   
+}
+.eventSubTitle{
+    margin-top: 5px;
+    font-size: 1.05rem;   
+    font-style: italic;
 }
