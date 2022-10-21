@@ -1,0 +1,55 @@
+.container{
+    width: 90%;
+    margin: 40px auto;
+    /** 915 px accounts for the padding in the container*/
+    max-width: 915px;
+
+}
+
+
+.media{
+    color: #000000;
+    border: 1px solid white;
+    background-color: #ffffff;
+    padding: 15px;
+}
+.mediaList{
+    list-style: none;
+}
+.mediaSubTitle{
+    font-size: 1.05rem;
+
+}
+.mediaTitle{
+    /* font-style: italic; */
+    font-size: 1.5rem;
+}
+.childrenLink{
+    font-size: 1.25rem;   
+    transition: 0.3s;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+.childrenLink:hover{
+    color: #583d00;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.mediaSubTitle{
+    margin-top: 5px;
+}
+.childrenLink{
+    color: #000000;
+    font-size: 1.25rem; 
+    list-style:decimal;
+
+}
+.childrenLinkList{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
