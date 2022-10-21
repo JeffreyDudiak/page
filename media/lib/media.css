@@ -9,7 +9,7 @@
 
 .media{
     color: #000000;
-    background-color: #b5b5b5ce;
+    background-color: #fffaea;
     padding: 15px;
 }
 .mediaList{
@@ -65,4 +65,11 @@
     flex-direction: column;
     gap: 10px;
     justify-content: space-between;
+}
+
+@media only screen and (min-width:600px){
+    .mediaList{
+        margin-top: 30px;
+        gap: 30px;
+    }
 }
