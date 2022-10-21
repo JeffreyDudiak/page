@@ -1,6 +1,6 @@
 .container{
     width: 90%;
-    margin: 40px auto;
+    margin: 20px auto;
     /** 915 px accounts for the padding in the container*/
     max-width: 915px;
 
@@ -15,14 +15,26 @@
 }
 .mediaList{
     list-style: none;
+    /** this makes the list gap easy to maintain**/
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .mediaSubTitle{
     font-size: 1.05rem;
-
+    font-style: italic;
 }
 .mediaTitle{
     /* font-style: italic; */
     font-size: 1.5rem;
+}
+.mediaTitleAsLink{
+    color: #000000;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+.mediaTitleAsLink:hover{
+    text-decoration: underline;
 }
 .childrenLink{
     font-size: 1.25rem;   
